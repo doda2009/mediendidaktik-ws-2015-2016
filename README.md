@@ -12,6 +12,6 @@ Directory prototype includes all files for prototype
 
 Directory wireframes includes raw-files and exportet files for the created wireframes
 
-The directory documentation inludes all protocols from meetings, brainstorming, discussions and the directory latex/ for the final documentation and also the springer-template.
+The directory documentation inludes all protocols from meetings, brainstorming, discussions and the directory latex/ for the final documentation and also the springer-template which was downloaded from https://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0
 
 The Wireframes were created with pencil version 2.0.5 (http://pencil.evolus.vn/)

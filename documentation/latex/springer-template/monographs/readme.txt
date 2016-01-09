@@ -1,22 +1,16 @@
 This directory holds the 8 components of the SVMono tool package:
 
 (1) a subdirectory "styles" with
-- the Springer document class "svmono.cls",
+- the document class "svmono.cls",
 - the Springer MakeIndex style file "svind.ist"
-- the Springer BibTeX styles "spbasic.bst", "spmpsci.bst", "spphys.bst"
 
 (2) a subdirectory "templates" with
 - the sample root file "book.tex",
 - the sample text files
   - "dedic.tex" (dedication),
-  - "foreword.tex" (foreword),
-  - "preface.tex" (preface),
-  - "acknow.tex" (acknowledgements),
-  - "acronym.tex" (list of acronyms),
+  - "pref.tex" (preface),
   - "part.tex" (part title),
   - "chapter.tex" (chapter),
-  - "appendix.tex" (appendix),
-  - "glossary.tex" (glossary),
   - "solutions.tex" (solutions chapter),
   - "referenc.tex" (references),
   - "figure.eps" (sample figure),

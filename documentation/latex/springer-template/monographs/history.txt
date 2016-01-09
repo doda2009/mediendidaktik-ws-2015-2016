@@ -130,10 +130,3 @@ date      filename   version  action/reason/acknowledgements
 
 31.10.06  svmono.cls    4.17  fix for various babel dialects in english
                               by Ben Liblit, university of Wisconsin, Madison
-
-29.06.07  svmono.cls    5.4   first release of the SVMono class
-                              with new global Springer layout "T1"
-
-18.12.09  svmono.cls    5.5   fixed LaTeX error of undefined "\thesubequation"
-                              when using option "nochapnum", error reported
-                              by Yoram Burak, Harvard University

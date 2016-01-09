@@ -21,4 +21,4 @@ ascii mode
 If you have problems or further questions with respect to the file
 transfer please contact:
 
-Frank Holzwarth      frank.holzwarth@springer.com
+Frank Holzwarth      frank.holzwarth@springer-sbm.com
