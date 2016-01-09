@@ -1,28 +1,10 @@
-# mediendidaktik-ws-2015-2016
-Repository for Project in Module Mediendidaktik
-
-This project includes
-
-* prototype/
-* wireframes/
-* documentation/
-  * latex/
-
-Directory prototype includes all files for prototype
-
-Directory wireframes includes raw-files and exportet files for the created wireframes
-
-The directory documentation inludes all protocols from meetings, brainstorming, discussions and the directory latex/ for the final documentation and also the springer-template which was downloaded from https://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0
-
-The Wireframes were created with pencil version 2.0.5 (http://pencil.evolus.vn/)
-
 # How to commit
 For commiting your changes you have to do these steps, provided that you're using a shell:
 
 1. Create once your own branch
 > git checkout -b [branchname]
 
-2. Add new files
+2. Add all new files
 > git add .
 
 3. Commit your changes to your locall Repository and write a small message what you've downloaded
@@ -52,3 +34,10 @@ For commiting your changes you have to do these steps, provided that you're usin
 
 12. Switch to your branch
 > git checkout [branchname]
+
+## CheatSheet
+**[value]** a value you have to add. Syntax is without braces.
+
+Repository localtions at example master:
+* **master** - the localmaster on your machine
+* **origin master** - the master on github
