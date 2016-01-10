@@ -36,8 +36,24 @@ module.exports.routes = {
     view: 'main/index'
   },
   '/rest-examples': {
-    view: 'main/rest'
+    view: 'main/home'
   },
+  '/rest-examples': {
+    view: 'main/11-die-gitarre'
+  },
+  '/rest-examples': {
+    view: 'main/gitarre-erleben'
+  },
+  '/rest-examples': {
+    view: 'main/home'
+  },
+  '/rest-examples': {
+    view: 'main/how-to-learn'
+  },
+  '/rest-examples': {
+    view: 'main/lerneinheiten'
+  },
+  
   '/todos': 'MainController.todos',
 
   //
