@@ -1,0 +1,99 @@
+{
+  "data": {
+    "todo": [
+      {
+        "title": "First todo",
+        "isComplete": false,
+        "createdAt": "2016-01-10T15:28:26.372Z",
+        "updatedAt": "2016-01-10T15:28:26.372Z",
+        "id": 1
+      },
+      {
+        "title": "Completed todo",
+        "isComplete": true,
+        "createdAt": "2016-01-10T15:28:26.372Z",
+        "updatedAt": "2016-01-10T15:28:26.372Z",
+        "id": 2
+      },
+      {
+        "title": "One more todo",
+        "isComplete": false,
+        "createdAt": "2016-01-10T15:28:26.372Z",
+        "updatedAt": "2016-01-10T15:28:26.372Z",
+        "id": 3
+      }
+    ],
+    "user": [
+      {
+        "username": "test",
+        "password": "$2a$10$O5pNXQIm8Bk2fPZbONGWQuMpP0LncnNoq732zp6iKif.9M5aBqF7.",
+        "email": "foo@bar.com",
+        "createdAt": "2016-01-10T15:28:26.490Z",
+        "updatedAt": "2016-01-10T15:28:26.490Z",
+        "id": 1
+      }
+    ]
+  },
+  "schema": {
+    "todo": {
+      "title": {
+        "type": "string"
+      },
+      "isComplete": {
+        "type": "boolean",
+        "defaultsTo": false
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "defaultsTo": "AUTO_INCREMENT",
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime",
+        "default": "NOW"
+      },
+      "updatedAt": {
+        "type": "datetime",
+        "default": "NOW"
+      }
+    },
+    "user": {
+      "username": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string",
+        "unique": true
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "defaultsTo": "AUTO_INCREMENT",
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime",
+        "default": "NOW"
+      },
+      "updatedAt": {
+        "type": "datetime",
+        "default": "NOW"
+      }
+    }
+  },
+  "counters": {
+    "todo": {
+      "id": 3
+    },
+    "user": {
+      "id": 1
+    }
+  }
+}
